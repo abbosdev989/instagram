@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+
+.app {
+    background-color: #121212;
+}
+
+.app__posts {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid #d3d3d333;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app_error{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #0095f6;
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.app_modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #000000;
+    border: 2px solid #000;
+    padding: 32px;
+    color: white;
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #ffffff;
+}
+
+.app_input{
+    margin-bottom: 10px;
+}
+
+.app__headerImage {
+    width: 10%;
+    object-fit: contain;
+}
+
+.app__signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__signin {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__loginContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.app__button {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0095f6;
+    border: none;
+    background-color: transparent;
+}
+
+.app__submitLogin{
+    color: #0095f6!important;
+}
+
+.app_or {
+    color: #0095f6;
+}

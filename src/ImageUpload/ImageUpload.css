@@ -1,0 +1,66 @@
+.imageupload {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #d3d3d333;
+    border-radius: 10px;
+}
+
+.d-flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.upload_submit {
+    font-size: 15px !important;
+    color: #0095f6 !important;
+    margin-top: 5px !important;
+}
+
+.input__one {
+    width: 80%;
+}
+
+.imageupload__progress {
+    width: 100%;
+}
+
+.label_word {
+    text-align: center;
+}
+
+[type="file"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+}
+
+[type="file"] + label {
+    border-radius: 10px;
+    color: #0095f6;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+[type="file"]:focus + label,
+[type="file"] + label:hover {
+    background-color: #d3d3d333;
+}
+
+[type="file"]:focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
